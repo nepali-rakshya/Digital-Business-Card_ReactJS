@@ -5,9 +5,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Quicksand";
+  background: #23252c;
 }
 
 .container {
-  background: #23252c;
   padding: 2em;
+  color: #ffffff;
 }
