@@ -20,11 +20,12 @@
   justify-content: space-between;
   gap: 1em;
   align-items: center;
+  font-weight: 400;
 }
 
 .FlexBox_img {
-  width: 12px;
-  margin-right: 0.5em;
+  width: 15px;
+  margin-right: 0.2em;
 }
 
 .Icon {
@@ -37,7 +38,7 @@
 
 .Icon_email {
   background: #ffffff;
-  color: black;
+  color: #374151;
 }
 
 .Icon_linkedIn {
