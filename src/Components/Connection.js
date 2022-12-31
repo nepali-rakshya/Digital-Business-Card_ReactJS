@@ -1,11 +1,22 @@
+import ConnectionCSS from "./Connection.module.css";
+import cn from "classnames";
+import github from "../img/github.png";
+
 const Connection = () => {
   return (
     <section>
-      <p className="name">Rakshya Nepali</p>
-      <p className="title">Frontend Developer</p>
-      <p className="website">rakshyanepali440@gmail.com</p>
-      <p className="email-icon">Email</p>
-      <p className="linkedIn-icon">LinkedIn</p>
+      <h2 className={`${ConnectionCSS.name}`}>Rakshya Nepali</h2>
+      <p className={`${ConnectionCSS.title}`}>Frontend Developer</p>
+      <p className={`${ConnectionCSS.website}`}>rakshya.website</p>
+      <div className={ConnectionCSS.FlexBox_row}>
+        <p className={cn(ConnectionCSS.Icon, ConnectionCSS.Icon_email)}>
+          <img src={github} className={cn(ConnectionCSS.FlexBox_img)} /> Email
+        </p>
+        <p className={cn(ConnectionCSS.Icon, ConnectionCSS.Icon_linkedIn)}>
+          <img src={github} className={cn(ConnectionCSS.FlexBox_img)} />
+          LinkedIn
+        </p>
+      </div>
     </section>
   );
 };

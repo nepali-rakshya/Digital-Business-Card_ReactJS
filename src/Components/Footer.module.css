@@ -1,0 +1,9 @@
+.Footer_position {
+  display: flex;
+  justify-content: center;
+  gap: 1.3em;
+}
+
+.Footer_img_size {
+  width: 27px;
+}

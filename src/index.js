@@ -14,6 +14,8 @@ function App() {
         <div className="section-padding">
           <Connection />
           <Content />
+        </div>
+        <div className="footer">
           <Footer />
         </div>
       </div>
