@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,6 +9,19 @@
 }
 
 .container {
-  padding: 2em;
+  padding: 2.5em 0;
   color: #ffffff;
+}
+
+.section-container {
+  max-width: 62%;
+  margin: 0 auto;
+  background: #1a1b21;
+  border: 1px solid transparent;
+  border-radius: 0.8em;
+  text-align: center;
+}
+
+.section-padding {
+  padding: 1.8em 1.5em;
 }

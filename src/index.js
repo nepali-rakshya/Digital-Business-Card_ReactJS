@@ -11,9 +11,11 @@ function App() {
     <div className="container">
       <div className="section-container">
         <Image />
-        <Connection />
-        <Content />
-        <Footer />
+        <div className="section-padding">
+          <Connection />
+          <Content />
+          <Footer />
+        </div>
       </div>
     </div>
   );

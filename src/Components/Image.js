@@ -1,12 +1,10 @@
 import img from "../img/anya.jpg";
+import imgCSS from "./Image.module.css";
 
 const Image = () => {
   return (
     <section>
-      <img src={img} alt="anya" width="300px" />
-      <p className="name">Rakshya Nepali</p>
-      <p className="title">Frontend Developer</p>
-      <p className="website">rakshyanepali440@gmail.com</p>
+      <img src={img} alt="anya" className={imgCSS.img_size} />
     </section>
   );
 };
